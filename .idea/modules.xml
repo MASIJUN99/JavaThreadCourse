@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-Thread/01-Thread.iml" filepath="$PROJECT_DIR$/01-Thread/01-Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-Runnable/02-Runnable.iml" filepath="$PROJECT_DIR$/02-Runnable/02-Runnable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Callable/03-Callable.iml" filepath="$PROJECT_DIR$/03-Callable/03-Callable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-StaticProxy/04-StaticProxy.iml" filepath="$PROJECT_DIR$/04-StaticProxy/04-StaticProxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Lambda/05-Lambda.iml" filepath="$PROJECT_DIR$/05-Lambda/05-Lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-TestStop/06-TestStop.iml" filepath="$PROJECT_DIR$/06-TestStop/06-TestStop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-TestYield/07-TestYield.iml" filepath="$PROJECT_DIR$/07-TestYield/07-TestYield.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-TestJoin/08-TestJoin.iml" filepath="$PROJECT_DIR$/08-TestJoin/08-TestJoin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-ThreadState/09-ThreadState.iml" filepath="$PROJECT_DIR$/09-ThreadState/09-ThreadState.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-TestPriority/10-TestPriority.iml" filepath="$PROJECT_DIR$/10-TestPriority/10-TestPriority.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-TestDaemon/11-TestDaemon.iml" filepath="$PROJECT_DIR$/11-TestDaemon/11-TestDaemon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-Sync/12-Sync.iml" filepath="$PROJECT_DIR$/12-Sync/12-Sync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-DeadLock/13-DeadLock.iml" filepath="$PROJECT_DIR$/13-DeadLock/13-DeadLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14-TestLock/14-TestLock.iml" filepath="$PROJECT_DIR$/14-TestLock/14-TestLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15-TestProducerAndConsumer/15-TestProducerAndConsumer.iml" filepath="$PROJECT_DIR$/15-TestProducerAndConsumer/15-TestProducerAndConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16-TestPool/16-TestPool.iml" filepath="$PROJECT_DIR$/16-TestPool/16-TestPool.iml" />
+    </modules>
+  </component>
+</project>
