@@ -18,6 +18,8 @@
       <module fileurl="file://$PROJECT_DIR$/14-TestLock/14-TestLock.iml" filepath="$PROJECT_DIR$/14-TestLock/14-TestLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/15-TestProducerAndConsumer/15-TestProducerAndConsumer.iml" filepath="$PROJECT_DIR$/15-TestProducerAndConsumer/15-TestProducerAndConsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/16-TestPool/16-TestPool.iml" filepath="$PROJECT_DIR$/16-TestPool/16-TestPool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17-TestInterrupt/17-TestInterrupt.iml" filepath="$PROJECT_DIR$/17-TestInterrupt/17-TestInterrupt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18-AdvanceSync/18-AdvanceSync.iml" filepath="$PROJECT_DIR$/18-AdvanceSync/18-AdvanceSync.iml" />
     </modules>
   </component>
 </project>

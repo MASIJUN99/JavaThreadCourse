@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="logback-classic-1.2.6">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/logback/logback/1.2.6/logback-classic-1.2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
