@@ -20,6 +20,8 @@
       <module fileurl="file://$PROJECT_DIR$/16-TestPool/16-TestPool.iml" filepath="$PROJECT_DIR$/16-TestPool/16-TestPool.iml" />
       <module fileurl="file://$PROJECT_DIR$/17-TestInterrupt/17-TestInterrupt.iml" filepath="$PROJECT_DIR$/17-TestInterrupt/17-TestInterrupt.iml" />
       <module fileurl="file://$PROJECT_DIR$/18-AdvanceSync/18-AdvanceSync.iml" filepath="$PROJECT_DIR$/18-AdvanceSync/18-AdvanceSync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19-PracticeSync/19-PracticeSync.iml" filepath="$PROJECT_DIR$/19-PracticeSync/19-PracticeSync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20-TestBiased/20-TestBiased.iml" filepath="$PROJECT_DIR$/20-TestBiased/20-TestBiased.iml" />
     </modules>
   </component>
 </project>

@@ -17,3 +17,5 @@
 ## 八、[打断](./8.md)
 
 ## 九、[synchronized](./9.md)
+
+## 十、[synchronized优化](./10.md)
