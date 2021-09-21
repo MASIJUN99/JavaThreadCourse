@@ -22,6 +22,11 @@
       <module fileurl="file://$PROJECT_DIR$/18-AdvanceSync/18-AdvanceSync.iml" filepath="$PROJECT_DIR$/18-AdvanceSync/18-AdvanceSync.iml" />
       <module fileurl="file://$PROJECT_DIR$/19-PracticeSync/19-PracticeSync.iml" filepath="$PROJECT_DIR$/19-PracticeSync/19-PracticeSync.iml" />
       <module fileurl="file://$PROJECT_DIR$/20-TestBiased/20-TestBiased.iml" filepath="$PROJECT_DIR$/20-TestBiased/20-TestBiased.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21-ImporveWaitNotify/21-ImporveWaitNotify.iml" filepath="$PROJECT_DIR$/21-ImporveWaitNotify/21-ImporveWaitNotify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/22-GuardedObject/22-GuardedObject.iml" filepath="$PROJECT_DIR$/22-GuardedObject/22-GuardedObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/23-BlockedQueue/23-BlockedQueue.iml" filepath="$PROJECT_DIR$/23-BlockedQueue/23-BlockedQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/24-MultiLock/24-MultiLock.iml" filepath="$PROJECT_DIR$/24-MultiLock/24-MultiLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/25-LiveLock/25-LiveLock.iml" filepath="$PROJECT_DIR$/25-LiveLock/25-LiveLock.iml" />
     </modules>
   </component>
 </project>

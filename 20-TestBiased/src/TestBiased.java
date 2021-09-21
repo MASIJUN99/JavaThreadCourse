@@ -10,7 +10,16 @@ public class TestBiased {
         System.out.println(ClassLayout.parseInstance(new Test()).toPrintable());
         Thread.sleep(4000);
         System.out.println(ClassLayout.parseInstance(new Test()).toPrintable());
+
+        // add the biased lock
+        Test test = new Test();
+        synchronized (test) {
+            System.out.println(ClassLayout.parseInstance(test).toPrintable());
+        }
+
+        System.out.println(ClassLayout.parseInstance(test).toPrintable());
     }
+
 }
 
 
