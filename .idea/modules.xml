@@ -27,6 +27,10 @@
       <module fileurl="file://$PROJECT_DIR$/23-BlockedQueue/23-BlockedQueue.iml" filepath="$PROJECT_DIR$/23-BlockedQueue/23-BlockedQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/24-MultiLock/24-MultiLock.iml" filepath="$PROJECT_DIR$/24-MultiLock/24-MultiLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/25-LiveLock/25-LiveLock.iml" filepath="$PROJECT_DIR$/25-LiveLock/25-LiveLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/26-ReentrantLockSample/26-ReentrantLockSample.iml" filepath="$PROJECT_DIR$/26-ReentrantLockSample/26-ReentrantLockSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/27-FixedOrder/27-FixedOrder.iml" filepath="$PROJECT_DIR$/27-FixedOrder/27-FixedOrder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/28-AlternateOrder/28-AlternateOrder.iml" filepath="$PROJECT_DIR$/28-AlternateOrder/28-AlternateOrder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/29-TwoPhaseTermination/29-TwoPhaseTermination.iml" filepath="$PROJECT_DIR$/29-TwoPhaseTermination/29-TwoPhaseTermination.iml" />
     </modules>
   </component>
 </project>

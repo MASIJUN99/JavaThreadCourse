@@ -1,0 +1,51 @@
+package util;
+
+import java.text.SimpleDateFormat;
+
+public class SimpleLog {
+    static public void complexLog(String text, Object... vars) {
+        text = "[" + Thread.currentThread().getName() + "] " + text;
+
+        StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+        StackTraceElement stackTraceElement = stackTrace[stackTrace.length - 1];
+        text = "(" + stackTraceElement.getClassName() + "." + stackTraceElement.getMethodName() + ") " + text;
+
+        text = new SimpleDateFormat("yy-MM-dd HH:mm:ss.SSS").format(System.currentTimeMillis()) + ' ' + text;
+
+        if (vars.length > 0) {
+            int i = 0;
+            for (Object var : vars) {
+                for (int length = text.length(); i < length - 1; i++) {
+                    if (text.charAt(i) == '{' && text.charAt(i + 1) == '}') {
+                        String pre = text.substring(0, i);
+                        String nxt = i + 2 < length ? text.substring(i + 2, length) : "";
+                        text = pre + var + nxt;
+                        length = text.length();
+                        break;
+                    }
+                }
+            }
+        }
+        System.out.println(text);
+    }
+
+    static public void simpleLog(String text, Object... vars) {
+        text = text.replace("%date", new SimpleDateFormat("yy-MM-dd HH:mm:ss").format(System.currentTimeMillis()));
+        text = text.replace("%t", Thread.currentThread().getName());
+        StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+        StackTraceElement stackTraceElement = stackTrace[stackTrace.length - 1];
+        text = text.replace("%logger", stackTraceElement.getClassName() + "." + stackTraceElement.getMethodName());
+
+        if (vars.length > 0) {
+            int i = 0;
+            for (Object var : vars) {
+                for (int length = text.length(); i < length - 1; i++) {
+                    if (text.charAt(i) == '{' && text.charAt(i + 1) == '}') {
+                        text = text.substring(0, i) + var + text.substring(i + 2, length);
+                    }
+                }
+            }
+        }
+        System.out.println(text);
+    }
+}
